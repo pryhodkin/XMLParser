@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Scientists>
+
+  <!--<Scientist id="">
+    <LastName></LastName>
+    <FirstName></FirstName>
+    <MiddleName></MiddleName>
+
+    <Faculty></Faculty>
+    <Cathedra></Cathedra>
+    <Position></Position>
+    <PositionSalary></PositionSalary>зщ
+    <TimeOnPosition></TimeOnPosition>
+  </Scientist>-->
+
+
+  <Scientist id="1">
+    <LastName ukr="Прізвище">Омельчук</LastName>
+    <FirstName ukr="Ім'я">Людмила</FirstName>
+    <MiddleName ukr="По-батькові">Леонідівна</MiddleName>
+
+
+    <Faculty ukr="Факультет">Комп'ютерних наук та кібернетики</Faculty>
+    <Cathedra ukr="Кафедра">Теорії та технології програмування</Cathedra>
+    <Position ukr="посада">доцент</Position>
+    <PositionSalary ukr="Посадовий оклад">25473</PositionSalary>
+    <TimeOnPosition ukr="Час на посаді">116</TimeOnPosition>
+  </Scientist>
+
+
+  <Scientist id="2">
+    <LastName>Шкільняк</LastName>
+    <FirstName>Степан</FirstName>
+    <MiddleName>Степанович</MiddleName>
+
+    <Faculty>Комп'ютерних наук та кібернетики</Faculty>
+    <Cathedra>Теорії та технології програмування</Cathedra>
+    <Position>професор</Position>
+    <PositionSalary>30375</PositionSalary>
+    <TimeOnPosition>253</TimeOnPosition>
+  </Scientist>
+
+
+  <Scientist id="3">
+    <LastName>Коваль</LastName>
+    <FirstName>Юрій</FirstName>
+    <MiddleName>Віталійович</MiddleName>
+
+    <Faculty>Комп'ютерних наук та кібернетики</Faculty>
+    <Cathedra>Теоретичної кібернетики</Cathedra>
+    <Position>Асистент</Position>
+    <PositionSalary>16780</PositionSalary>
+    <TimeOnPosition>68</TimeOnPosition>
+  </Scientist>
+
+
+  <Scientist id="4">
+    <LastName>Карнаух</LastName>
+    <FirstName>Тетяна</FirstName>
+    <MiddleName>Олександрівна</MiddleName>
+
+    <Faculty>Комп'ютерних наук та кібернетики</Faculty>
+    <Cathedra>Теоретичної кібернетики</Cathedra>
+    <Position>доцент</Position>
+    <PositionSalary>25473</PositionSalary>
+    <TimeOnPosition>92</TimeOnPosition>
+  </Scientist>
+
+
+  <Scientist id="5">
+    <LastName>Закусило</LastName>
+    <FirstName>Олег</FirstName>
+    <MiddleName>Каленикович</MiddleName>
+
+    <Faculty>Комп'ютених наук та кібернетики</Faculty>
+    <Cathedra>Дослідження операцій</Cathedra>
+    <Position>професор</Position>
+    <PositionSalary>30375</PositionSalary>
+    <TimeOnPosition>98</TimeOnPosition>
+  </Scientist>
+
+
+  <Scientist id="6">
+    <LastName>Якимів</LastName>
+    <FirstName>Роман</FirstName>
+    <MiddleName>Ярославович</MiddleName>
+
+    <Faculty>Комп'ютених наук та кібернетики</Faculty>
+    <Cathedra>Дослідження операцій</Cathedra>
+    <Position>доцент</Position>
+    <PositionSalary>25473</PositionSalary>
+    <TimeOnPosition>98</TimeOnPosition>
+  </Scientist>
+  
+</Scientists>
