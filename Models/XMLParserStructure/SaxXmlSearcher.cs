@@ -22,6 +22,7 @@ namespace XMLParser
             var xmlReader = new XmlTextReader(@"C:\Users\Surface\source\repos\XMLParser\ExampleData\1.xml");
             Scientist current = new Scientist();
             var prop = "";
+            var check = true;
             while (xmlReader.Read())
             {
                 switch (xmlReader.Name)
@@ -30,8 +31,10 @@ namespace XMLParser
                     case "Scientist":
                         if (xmlReader.NodeType == XmlNodeType.EndElement)
                         {
-                            scientists.Add(current);
+                            if(check)
+                                scientists.Add(current);
                             current = new Scientist();
+                            check = true;
                         }
                         break;
                     case "":
@@ -63,8 +66,12 @@ namespace XMLParser
                                 case "TimeOnPosition":
                                     current.TimeOnPosition = Convert.ToInt32(xmlReader.Value);
                                     break;
-
                             }
+                            var filter = filters.Find(filter => filter.XmlProperty == prop);
+                            var actualValue = xmlReader.Value;
+                            var expectedValue = filter.SelectedValue;
+                            if (actualValue != expectedValue && expectedValue is { })
+                                check = false;
                         }
                         break;
                     default:
